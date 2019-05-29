@@ -1,22 +1,20 @@
 {
-  "name": "working hour example",
+  "name": "working_hours_plugin",
   "version": "1.0.0",
-  "description": "Example for Working Hours Plugin",
+  "description": "React Project for Working Hours Plugin",
   "repository": {
-    "type": "git",
-    "url": "git://github.com/react-boilerplate/react-boilerplate.git"
+    "type": "git"
   },
   "engines": {
     "npm": ">=5",
     "node": ">=8.10.0"
   },
-  "author": "Max Stoiber",
+  "author": "Jack Shen",
   "license": "MIT",
   "scripts": {
     "analyze:clean": "rimraf stats.json",
     "preanalyze": "npm run analyze:clean",
     "analyze": "node ./internals/scripts/analyze.js",
-    "extract-intl": "node ./internals/scripts/extract-intl.js",
     "npmcheckversion": "node ./internals/scripts/npmcheckversion.js",
     "preinstall": "npm run npmcheckversion",
     "prebuild": "npm run build:clean",
@@ -60,7 +58,6 @@
   },
   "dependencies": {
     "@babel/polyfill": "7.0.0",
-    "antd": "^3.15.0",
     "bootstrap": "^4.3.1",
     "chalk": "2.4.1",
     "compression": "1.7.3",
